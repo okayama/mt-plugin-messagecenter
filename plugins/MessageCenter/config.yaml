@@ -1,0 +1,10 @@
+id: MessageCenter
+name: MessageCenter
+key: messagecenter
+author_name: okayama
+author_link: http://weeeblog.net/
+description: <__trans phrase='_PLUGIN_DESCRIPTION'>
+version: 1.1
+l10n_class: MessageCenter::L10N
+callbacks:
+    set_notification_dashboard: $messagecenter::MessageCenter::Callbacks::_cb_set_notification_dashboard
