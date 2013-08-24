@@ -40,7 +40,7 @@ sub _cb_set_notification_dashboard {
             detail => $plugin->translate( 'Work harder.' ),
         },
     );
-    push @{ $loop_notification_dashboard }, @notifications;
+    push( @$loop_notification_dashboard, @notifications );
 }
 
 1;
