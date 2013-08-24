@@ -32,7 +32,7 @@ sub _cb_set_notification_dashboard {
         {
             level  => 'foo',
             text   => $plugin->translate( 'No icon' ),
-            detail => $plugin->translate( 'Fooooooo!' ),
+            detail => '<a href="">' . $plugin->translate( 'Fooooooo!' ) . '</a>',
         },
         {
             level  => 'error',
